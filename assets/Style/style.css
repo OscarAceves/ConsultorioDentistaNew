@@ -1,0 +1,63 @@
+
+.slogan{
+    text-align: justify;
+    padding: 50px 50px 50px 50px;
+    background-color:rgb(137, 195, 192);
+    font-size: larger;
+}
+
+.gentefeliz{
+    display:inline-flex;
+    border-radius: 150px;
+    padding: 25px 25px 25px 25px;
+    width: 30;
+    
+}
+
+div{
+    justify-content: center;
+}
+
+#infodoctor {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#doctor {
+    border-radius: 150px;
+
+}
+
+#servicios{
+    text-align: center;
+    color: cadetblue;
+}
+
+#tituloServicios{
+    text-align: center;
+}
+
+#Consejos{
+    text-align: center;
+    color: cadetblue;
+}
+
+ol{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+
+
+
+footer {
+    background-color: rgb(137, 195, 192);
+    padding: 30px;
+    text-align: center;
+}
+
+
