@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Diente Feliz</title>
+    <link rel="stylesheet" href="./assets/Style/styleform.css">
+</head>
+<body>
+    <p><strong>Favor de contestar las preguntas completamente</strong></p>
+    <br><br>
+
+    <form action="formulario" method="POST">
+        <div class="grupo-input">
+            <label for="nombre-div">Nombre</label>
+            <input
+                type="text"
+                name="Nombre"
+                id="nombre-div"
+                placeholder="Escribe tu nombre"
+                autocomplete="off"
+                onchange="onChange(this)"
+            >
+        </div>
+
+        <div class="grupo-input">
+            <label for="apellido-div">Apellido</label>
+            <input type="text" name="Apellido" id="apellido-div" onchange="onChange(this)">
+        </div>
+
+        <div class="grupo-input">
+            <label for="edad-div">Edad</label>
+            <input type="text" name="Edad" id="edad-div" onchange="onChange(this)">
+        </div>
+
+        <div class="grupo-input">
+            <label for="email-div">E-mail</label>
+            <input type="email" name="Email" id="email-div" onchange="onChange(this)">
+        </div>
+
+        <div class="grupo-input">
+            <label for="servicios-div">Servicio que busca</label>
+                <select id="servicios-div" name="servicios" onchange="onChange(this)">
+                    <option value="" disabled selected>Selecciona tu servicio</option>
+                    <option value="Consulta">Consulta</option>
+                    <option value="Limpieza dental">Limpieza dental</option>
+                    <option value="Blanqueamientos">Blanqueamientos</option>
+                    <option value="Brackets">Brackets</option>
+                    <option value="Otro">Otro</option>
+                </select>
+        </div>
+
+        <div class="grupo-input">
+            <label for="fecha-div">Fecha de la cita</label>
+            <input type="date" name="fecha" id="fecha-div" onchange="onChange(this)">
+        </div>
+
+        <div class="grupo-input">
+            <label for="tel-div">Telefono de Contacto</label>
+            <input type="number" name="telefono" id="telefono-div" maxlength="10" name="tel" placeholder="Telefono a 10 digitos" onchange="onChange(this)">
+        </div>
+        <div class="grupo-input text-center">
+            <button type="submit" class="btn">Confirmar cita</button>
+        </div>
+    </form>
+
+</body>
+</html>

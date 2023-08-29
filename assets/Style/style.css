@@ -43,15 +43,15 @@ div{
     color: cadetblue;
 }
 
-ol{
+#tablaServicios{
     text-align: center;
+    list-style-position: inside;
 }
 
-ul{
+.consejosCuidado{
     text-align: center;
+    list-style-position: inside;
 }
-
-
 
 
 footer {
